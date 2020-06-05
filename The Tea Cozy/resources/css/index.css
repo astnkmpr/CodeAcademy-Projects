@@ -1,0 +1,123 @@
+html {
+    font-size: 22px;
+    color: rgba(255, 245, 238, 0.5);
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.navbar img {
+    height: 50px;
+    width: auto;
+    margin: 9.5px 10px;
+    float: left;
+}
+
+.navbar ul {
+    display: inline-flexbox;
+    float: right;
+    margin-right: 1%;
+    top: 0;
+}
+
+.navbar li {
+    display: inline;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.navbar li a {
+    color: seashell;
+}
+
+.container {
+    display: block;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto auto auto;
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+}
+
+#mission div {
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#locations {
+    margin: auto;
+    display: inline-block;
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    background-image: url("../images/img-locations-background.jpg");
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+#featured {
+    margin: auto;
+    width: 1000px;
+}
+
+#featured .container{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+#featured img {
+    width: 300px;
+    height: 200px;
+}
+
+#featured .container h3 {
+    margin-top: 10px;
+}
+
+#locations div {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    margin-top: 15px;
+    opacity: 1;
+    background-color: black;
+}
+
+#contact {
+    position: relative;
+    height: 200px;
+}
+
+footer {
+    position: relative;
+    margin-left: 20px;
+    text-align: left;
+}
